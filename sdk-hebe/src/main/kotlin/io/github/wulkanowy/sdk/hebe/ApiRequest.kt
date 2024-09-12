@@ -14,10 +14,10 @@ internal data class ApiRequest<T>(
     val apiVersion: Int = 1,
 
     @SerialName("AppName")
-    val appName: String = "DzienniczekPlus 2.0",
+    val appName: String = "DzienniczekPlus 3.0",
 
     @SerialName("AppVersion")
-    val appVersion: String = "22.09.02 (G)",
+    val appVersion: String = "24.08.23 (G)",
 
     @SerialName("CertificateId")
     val certificateId: String,
